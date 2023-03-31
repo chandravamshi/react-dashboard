@@ -1,0 +1,40 @@
+
+.editable-field, .hideable-field {
+  background: rgba(37, 105, 168, 0.2);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.editable-field:hover, .hideable-field:hover {
+  border-color: rgba(37, 105, 168, 1);
+}
+.editable-field {
+  cursor: pointer;
+}
+.hideable-field {
+  position: relative;
+}
+
+.hideable-field .hide-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 4px;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.4);
+}
+.hideable-field .hide-button:hover {
+  background: #fafafa;
+}

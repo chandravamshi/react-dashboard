@@ -1,0 +1,20 @@
+.strings-row-create {
+  background-color: #087f23;
+}
+.text-type-create {
+  color: #087f23;
+}
+
+.strings-row-update {
+  background-color: #f2a60d;
+}
+.text-type-update {
+  color: #f2a60d;
+}
+
+.strings-row-delete {
+  background-color: #ef4444;
+}
+.text-type-delete {
+  color: #ef4444;
+}
